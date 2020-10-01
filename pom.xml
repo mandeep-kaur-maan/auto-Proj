@@ -9,6 +9,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
+        <!--To make the compiled files platform independent-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--To solve 'Source option 5 is no longer supported. Use 7 or later' issue, make compiler use version 7; because we are usign jdk 14 -->
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
         <selenium.version>3.141.59</selenium.version>
         <cucumber.version>6.8.0</cucumber.version>
     </properties>
@@ -39,8 +44,6 @@
             <version>${cucumber.version}</version>
             <scope>test</scope>
         </dependency>
-
-
     </dependencies>
 
 </project>
