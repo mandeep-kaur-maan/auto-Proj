@@ -14,7 +14,7 @@ public class registrationSteps {
 
     @Given("I am on registration page")
     public void iAmOnRegistrationPage() {
-        throw new PendingException();
+        System.out.println("I am not yet implemented!!!");
     }
 
     @When("I fill the registration form")
