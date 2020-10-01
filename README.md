@@ -4,7 +4,6 @@ This is a sample project for automating tests using selenium with cucumber and j
 
 ##Setup
 
-
 ##Running the tests from the cucumber files
 TODO
 

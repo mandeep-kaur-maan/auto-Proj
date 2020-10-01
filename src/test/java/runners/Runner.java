@@ -8,5 +8,4 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/featureFiles",
         glue = "src/test/java/stepDefinitions")
 public class Runner {
-
 }
